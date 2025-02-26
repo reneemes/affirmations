@@ -1,12 +1,11 @@
 {
-  "name": "electron-react-boilerplate",
+  "name": "affirmations",
   "version": "4.6.0",
-  "description": "A foundation for scalable desktop apps",
-  "license": "MIT",
+  "description": "An Electron React app for daily affirmations",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://github.com/electron-react-boilerplate"
+    "name": "Renee Messersmith",
+    "email": "rmessersmith25@example.com",
+    "url": "https://github.com/reneemes"
   },
   "main": "./dist/main/main.js",
   "scripts": {
