@@ -1,0 +1,23 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totoro {
+  height: 50vh;
+}
+
+.home-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #FEFCFD;
+  height: 40px;
+  width: 100px;
+  transition-duration: 0.4s;
+  margin-bottom: 10px;
+}
+
+.home-button:hover {
+  background-color: #EAC6BA;
+}
