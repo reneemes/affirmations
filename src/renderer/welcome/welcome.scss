@@ -2,10 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.totoro {
-  height: 50vh;
+  .greeting {
+    display: flex;
+    align-items: center;
+
+    .totoro {
+      height: 40vh;
+    }
+  }
 }
 
 .home-button {

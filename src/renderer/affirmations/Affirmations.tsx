@@ -1,7 +1,6 @@
 import './Affirmations.scss'
 import { affirmationsData } from '../data/affirmation-data.js'
 import { useEffect, useState } from 'react';
-// import Footer from '../footer/Footer'
 
 interface Affirmation {
   id: number,
@@ -62,7 +61,6 @@ function Affirmations() {
     <div className="affirmation-box">
       {displayAffirmation()}
       <button className="next-button" type="button" onClick={handleNextAffirmation}>Next</button>
-      {/* <Footer /> */}
     </div>
   )
 };
