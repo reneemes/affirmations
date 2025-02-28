@@ -112,6 +112,12 @@ const configuration: webpack.Configuration = {
           'file-loader',
         ],
       },
+      // Audio
+      {
+        test: /\.(mp3|wav|ogg)$/,
+        type: 'asset/resource', // Treats audio files as assets
+      },
+      
     ],
   },
   plugins: [
