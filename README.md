@@ -14,8 +14,8 @@ Daily Affirmations is a sleek, minimalistic audio player built with React and El
 🎶 Enjoy a peaceful listening experience while staying motivated with Daily Affirmations!
 
 <div align="center">
-  <img src="./assets/readme-photos/homepage.png" alt="Home Page" title="Home Page"/>
-  <img src="./assets/readme-photos/affirmations-view.png" alt="Home Page" title="Home Page"/>
+  <img height="300" src="./assets/readme-photos/homepage.png" alt="Home Page" title="Home Page"/>
+  <img height="300" src="./assets/readme-photos/affirmations-view.png" alt="Home Page" title="Home Page"/>
 </div>
 
 <h2 align="center">Installation Instructions</h2>
