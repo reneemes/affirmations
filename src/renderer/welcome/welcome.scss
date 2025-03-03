@@ -2,27 +2,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 75vh;
 
   .greeting {
     display: flex;
     align-items: center;
-
-    .totoro {
-      height: 40vh;
-    }
   }
-}
 
-.home-button {
-  border: none;
-  border-radius: 10px;
-  background-color: #FEFCFD;
-  height: 40px;
-  width: 100px;
-  transition-duration: 0.4s;
-  margin-bottom: 10px;
-}
-
-.home-button:hover {
-  background-color: #EAC6BA;
+  .cat {
+    height: 35vh;
+    margin-right: 200px;
+  }
+  
+  .home-button {
+    border: none;
+    border-radius: 10px;
+    background-color: #FEFCFD;
+    height: 40px;
+    width: 100px;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
+  }
+  
+  .home-button:hover {
+    background-color: #EAC6BA;
+  }
 }
