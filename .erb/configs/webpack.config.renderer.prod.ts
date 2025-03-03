@@ -69,6 +69,14 @@ const configuration: webpack.Configuration = {
         test: /\.(png|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
+      // MP3
+      {
+        test: /\.(mp3|wav|ogg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/[name][ext]',
+        },
+      },
       // SVG
       {
         test: /\.svg$/,
@@ -108,7 +116,7 @@ const configuration: webpack.Configuration = {
      */
     new webpack.EnvironmentPlugin({
       NODE_ENV: 'production',
-      DEBUG_PROD: false,
+      DEBUG_PROD: process.env.DEBUG_PROD ? 'true' : 'false',
     }),
 
     new MiniCssExtractPlugin({
