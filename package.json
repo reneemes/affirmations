@@ -179,6 +179,7 @@
       "package.json"
     ],
     "mac": {
+      "icon": "assets/icons/affirmations-icon.icns",
       "sign": ".erb/scripts/notarize.js",
       "notarize": false,
       "target": {
@@ -209,11 +210,13 @@
       ]
     },
     "win": {
+      "icon": "assets/icons/affirmations_icon.ico",
       "target": [
         "nsis"
       ]
     },
     "linux": {
+      "icon": "assets/icons/affirmations-icon.png",
       "target": [
         "AppImage"
       ],
